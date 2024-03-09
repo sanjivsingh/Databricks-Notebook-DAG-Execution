@@ -17,7 +17,7 @@ Now, we are asked to migrate into PySpark notebook. This is also applicable when
 # Solution
 
 There are two options available.
-## Option 1 : Topological Sorted ordered Steps in Notebook**
+## Option 1 : Topological Sorted ordered Steps in Notebook
 
   Easiest way to implement:
   - Perform a topological sort (Step 1 > Step 2 > Step 3 > Step 5 > Step 6 > Step 7 > Step 8 > Step 4 > Step 9 > Step 10 > Step 11) on all steps.
@@ -30,7 +30,7 @@ There are two options available.
     
 These limitations we will try to solve with option 2.
      
-## Option 2 : Trigger based DAG execution for Job Steps**
+## Option 2 : Trigger based DAG execution for Job Steps
 
      
   The idea is simple:
@@ -45,7 +45,7 @@ These limitations we will try to solve with option 2.
   I have created multiple notebook-based implementations below.
            
 # Implementation
-
+I have implemented Databricks Notebook however this can be followed to create other Notebooks like Glue, Jupyter etc.
 
 ## Python Notebook Using Class 
 
